@@ -9,7 +9,9 @@ dependencies = [
     "faker==40.1.2",
     "pillow==12.1.0",
     "psycopg-binary>=3.3.2",
-    "psycopg2==2.9.11",
+    "psycopg2-binary==2.9.11",
+    "whitenoise[brotli]",
+    "dj-database-url",
 ]
 
 [dependency-groups]
